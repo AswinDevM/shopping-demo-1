@@ -1,5 +1,5 @@
 {
-  "name": "remoteclone",
+  "name": "emptyaws",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -12,10 +12,5 @@
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
     "morgan": "~1.9.1"
-  },
-  "main": "app.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  }
 }

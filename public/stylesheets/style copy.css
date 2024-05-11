@@ -1,0 +1,103 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
+    background-image: url('learn-to-code.png'); /* Replace 'background.jpg' with the path to your image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.tutorial-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Add different background colors to each tutorial */
+.tutorial:nth-child(1) {
+    background-color: #ff9999; /* Light red */
+}
+
+.tutorial:nth-child(2) {
+    background-color: #99ccff; /* Light blue */
+}
+
+.tutorial:nth-child(3) {
+    background-color: #99ff99; /* Light green */
+}
+
+.tutorial:nth-child(4) {
+    background-color: #268d5d; /* Light green */
+}
+.tutorial:nth-child(5) {
+    background-color: #787bad; /* Light green */
+}
+.tutorial:nth-child(6) {
+    background-color: #888f88; /* Light green */
+}
+.tutorial:nth-child(7) {
+    background-color: #99ff99; /* Light green */
+}
+.tutorial:nth-child(8) {
+    background-color: #c7ab4e; /* Light green */
+}
+
+
+.tutorial {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: calc(33.33% - 10px);
+}
+
+@media screen and (max-width: 768px) {
+    .tutorial {
+        width: calc(50% - 10px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .tutorial {
+        width: 100%;
+    }
+}
